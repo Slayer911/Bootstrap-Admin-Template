@@ -27,7 +27,6 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "preinstall": "bower install",
     "clean": "./node_modules/.bin/rimraf public dist",
     "build": "npm run clean && npm run assets",
     "mainrtldist": "rtlcss dist/main.css dist/main.rtl.css && csso dist/main.rtl.css dist/main.rtl.min.css",
